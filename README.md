@@ -66,5 +66,3 @@ During the development of the server-side application, some errors were encounte
 - `java.util.NoSuchElementException: Author with ID 1 not found`: This error occurs when the test expects to find an author with a specific ID (in this case, ID 1), but the author is not found in the system. This could be due to incorrect test data setup or an issue with the retrieval of authors in the service implementation.
 
 If you encounter these errors during your testing, consider reviewing the corresponding test cases in the `BookControllerIT` class and the related service implementations (`BookService` and `AuthorService`). Ensure that the test data setup is correct and that the API endpoints and their implementations are functioning as expected.
-
-Note: The provided code snippets are for demonstration purposes and may require modifications based on your specific project structure and requirements.
